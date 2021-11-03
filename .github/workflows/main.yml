@@ -3,11 +3,7 @@
 
 name: CI
 
-on:
-  push:
-    branches: [version-2.03]
-  pull_request:
-    branches: [version-2.03]
+on: [push, pull_request]
 
 jobs:
   build:
