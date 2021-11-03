@@ -1,24 +1,36 @@
-<codelist name="AidTypeFlag"   xml:lang="en" complete="1" embedded="1">
+<codelist name="AidTypeFlag" xml:lang="en" complete="1" embedded="1">
     <metadata>
-        <name>Aid Type Flag</name>
-        <description>DAC/CRS classification used to distinguish aid modalities. </description>
+        <name>
+            <narrative>Aid Type Flag</narrative>
+        </name>
+        <description>
+            <narrative>DAC/CRS classification used to distinguish aid modalities. </narrative>
+        </description>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
-            <name>Free standing technical cooperation</name>
+            <name>
+                <narrative>Free standing technical cooperation</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>2</code>
-            <name>Programme-based approach</name>
+            <name>
+                <narrative>Programme-based approach</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>3</code>
-            <name>Investment project</name>
+            <name>
+                <narrative>Investment project</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>4</code>
-            <name>Associated financing</name>
+            <name>
+                <narrative>Associated financing</narrative>
+            </name>
         </codelist-item>
     </codelist-items>
 </codelist>
