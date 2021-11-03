@@ -42,7 +42,7 @@ jobs:
     needs: lint
     steps:
       - name: Trigger a build on the codelists repo
-        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/version-' }}
+        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/version-') }}
         uses: peter-evans/repository-dispatch@v1
         with:
           repository: codeforIATI/codelists
@@ -50,7 +50,7 @@ jobs:
           event-type: build
 
       - name: Trigger an update on the datastore classic repo
-        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/version-' }}
+        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/version-') }}
         uses: peter-evans/repository-dispatch@v1
         with:
           repository: codeforIATI/iati-datastore
