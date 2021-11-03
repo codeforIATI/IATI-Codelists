@@ -3,19 +3,11 @@
 
 name: CI
 
-on:
-  push:
-    branches: [version-2.03]
-  pull_request:
-    branches: [version-2.03]
+on: [push, pull_request]
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.7"]
-
     steps:
       - name: Install xmllint
         run: sudo apt-get install libxml2-utils
@@ -44,3 +36,23 @@ jobs:
 
       - name: flake8 lint
         run: flake8 --exclude=pyenv,pyenv3 --ignore E501
+
+  trigger:
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - name: Trigger a build on the codelists repo
+        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/version-' }}
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          repository: codeforIATI/codelists
+          token: ${{ secrets.TOKEN }}
+          event-type: build
+
+      - name: Trigger an update on the datastore classic repo
+        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/version-' }}
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          repository: codeforIATI/iati-datastore
+          token: ${{ secrets.TOKEN }}
+          event-type: update-codelists
