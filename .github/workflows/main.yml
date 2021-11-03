@@ -8,10 +8,6 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.7"]
-
     steps:
       - name: Install xmllint
         run: sudo apt-get install libxml2-utils
