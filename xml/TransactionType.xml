@@ -1,57 +1,99 @@
-<codelist name="TransactionType"   xml:lang="en" complete="1" embedded="1">
+<codelist name="TransactionType" xml:lang="en" complete="1" embedded="1">
     <metadata>
-        <name>Transaction Type</name>
+        <name>
+            <narrative>Transaction Type</narrative>
+        </name>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>C</code>
-            <name>Commitment</name>
-            <description>A firm written obligation by the donor to provide resources of a specified amount under specified financial terms and conditions and for specified purposes for the benefit of the recipient</description>
+            <name>
+                <narrative>Commitment</narrative>
+            </name>
+            <description>
+                <narrative>A firm written obligation by the donor to provide resources of a specified amount under specified financial terms and conditions and for specified purposes for the benefit of the recipient</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>D</code>
-            <name>Disbursement</name>
-            <description>The amount placed at the disposal of a recipient country or agency (in the case of internal development-related expenditures, the outlay of funds)</description>
+            <name>
+                <narrative>Disbursement</narrative>
+            </name>
+            <description>
+                <narrative>The amount placed at the disposal of a recipient country or agency (in the case of internal development-related expenditures, the outlay of funds)</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>E</code>
-            <name>Expenditure</name>
-            <description>The outlay by the implementing agency on goods and services for the activity</description>
+            <name>
+                <narrative>Expenditure</narrative>
+            </name>
+            <description>
+                <narrative>The outlay by the implementing agency on goods and services for the activity</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>IF</code>
-            <name>Incoming Funds</name>
-            <description>Funds received (whether from an external source or through internal accounting) for specific use on this activity.</description>
+            <name>
+                <narrative>Incoming Funds</narrative>
+            </name>
+            <description>
+                <narrative>Funds received (whether from an external source or through internal accounting) for specific use on this activity.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>IR</code>
-            <name>Interest Repayment</name>
-            <description>The actual amount of interest repaid, including fees.</description>
+            <name>
+                <narrative>Interest Repayment</narrative>
+            </name>
+            <description>
+                <narrative>The actual amount of interest repaid, including fees.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>LR</code>
-            <name>Loan Repayment</name>
-            <description>The actual amount of principal (amortisation) repaid, including any arrears.</description>
+            <name>
+                <narrative>Loan Repayment</narrative>
+            </name>
+            <description>
+                <narrative>The actual amount of principal (amortisation) repaid, including any arrears.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>R</code>
-            <name>Reimbursement</name>
-            <description>A disbursement that covers funds already spent by the recipient, as agreed in the terms of the loan or grant.</description>
+            <name>
+                <narrative>Reimbursement</narrative>
+            </name>
+            <description>
+                <narrative>A disbursement that covers funds already spent by the recipient, as agreed in the terms of the loan or grant.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>QP</code>
-            <name>Purchase of Equity</name>
-            <description>The use of an activity's funds to purchase equity in a business.</description>
+            <name>
+                <narrative>Purchase of Equity</narrative>
+            </name>
+            <description>
+                <narrative>The use of an activity's funds to purchase equity in a business.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>QS</code>
-            <name>Sale of Equity</name>
-            <description>The flow of funds into an activity from the sale of equity.</description>
+            <name>
+                <narrative>Sale of Equity</narrative>
+            </name>
+            <description>
+                <narrative>The flow of funds into an activity from the sale of equity.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>CG</code>
-            <name>Credit Guarantee</name>
-            <description>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party.</description>
+            <name>
+                <narrative>Credit Guarantee</narrative>
+            </name>
+            <description>
+                <narrative>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party.</narrative>
+            </description>
         </codelist-item>
     </codelist-items>
 </codelist>
