@@ -48,11 +48,3 @@ jobs:
           repository: codeforIATI/codelists
           token: ${{ secrets.TOKEN }}
           event-type: build
-
-      - name: Trigger an update on the datastore classic repo
-        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/version-') }}
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          repository: codeforIATI/iati-datastore
-          token: ${{ secrets.TOKEN }}
-          event-type: update-codelists
