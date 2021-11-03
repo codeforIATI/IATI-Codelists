@@ -60,4 +60,4 @@ def indent(elem, level=0, shift=2):
 
 indent(tree.getroot(), 0, 4)
 
-print(ET.tostring(tree).decode())
+print(ET.tostring(tree, encoding='unicode'))
