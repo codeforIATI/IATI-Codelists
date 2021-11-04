@@ -13,6 +13,7 @@
             <name>
                 <narrative>Incoming Funds</narrative>
                 <narrative xml:lang="fr">Fonds entrants</narrative>
+                <narrative xml:lang="es">Ingresos de fondos</narrative>
             </name>
             <description>
                 <narrative>Funds recieved for use on the activity, which can be from an external or internal source. </narrative>
@@ -24,6 +25,7 @@
             <name>
                 <narrative>Outgoing Commitment</narrative>
                 <narrative xml:lang="fr">Engagement sortant</narrative>
+                <narrative xml:lang="es">Compromiso de pago saliente</narrative>
             </name>
             <description>
                 <narrative>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, for specific purposes, for the benefit of the recipient. </narrative>
@@ -35,6 +37,7 @@
             <name>
                 <narrative>Disbursement</narrative>
                 <narrative xml:lang="fr">Décaissement</narrative>
+                <narrative xml:lang="es">Desembolso</narrative>
             </name>
             <description>
                 <narrative>Outgoing funds that are placed at the disposal of a recipient government or organisation, or funds transferred between two separately reported activities.</narrative>
@@ -46,6 +49,7 @@
             <name>
                 <narrative>Expenditure</narrative>
                 <narrative xml:lang="fr">Dépenses</narrative>
+                <narrative xml:lang="es">Gasto</narrative>
             </name>
             <description>
                 <narrative>Outgoing funds that are spent on goods and services for the activity.</narrative>
@@ -57,6 +61,7 @@
             <name>
                 <narrative>Interest Payment</narrative>
                 <narrative xml:lang="fr">Paiements d’intérêts</narrative>
+                <narrative xml:lang="es">Pago de intereses</narrative>
             </name>
             <description>
                 <narrative>The actual amount of interest paid on a loan or line of credit, including fees.</narrative>
@@ -68,6 +73,7 @@
             <name>
                 <narrative>Loan Repayment</narrative>
                 <narrative xml:lang="fr">Remboursement du prêt</narrative>
+                <narrative xml:lang="es">Reembolso de un préstamo</narrative>
             </name>
             <description>
                 <narrative>The actual amount of principal (amortisation) repaid, including any arrears. </narrative>
@@ -79,6 +85,7 @@
             <name>
                 <narrative>Reimbursement</narrative>
                 <narrative xml:lang="fr">Remboursement</narrative>
+                <narrative xml:lang="es">Reembolso</narrative>
             </name>
             <description>
                 <narrative>A type of disbursement that covers funds that have already been spent by the recipient, as agreed in the terms of the grant or loan</narrative>
@@ -90,6 +97,7 @@
             <name>
                 <narrative>Purchase of Equity</narrative>
                 <narrative xml:lang="fr">Achat d'équité</narrative>
+                <narrative xml:lang="es">Adquisición de capital</narrative>
             </name>
             <description>
                 <narrative>Outgoing funds that are used to purchase equity in a business</narrative>
@@ -101,6 +109,7 @@
             <name>
                 <narrative>Sale of Equity</narrative>
                 <narrative xml:lang="fr">Vente d'équité</narrative>
+                <narrative xml:lang="es">Venta de capital</narrative>
             </name>
             <description>
                 <narrative>Incoming funds from the sale of equity. </narrative>
@@ -112,6 +121,7 @@
             <name>
                 <narrative>Credit Guarantee</narrative>
                 <narrative xml:lang="fr">Caution</narrative>
+                <narrative xml:lang="es">Garantía de crédito</narrative>
             </name>
             <description>
                 <narrative>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party. </narrative>
@@ -123,6 +133,7 @@
             <name>
                 <narrative>Incoming Commitment</narrative>
                 <narrative xml:lang="fr">Engagement entrant</narrative>
+                <narrative xml:lang="es">Compromiso de pago entrante</narrative>
             </name>
             <description>
                 <narrative>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, reported by a recipient for this activity.</narrative>
@@ -134,6 +145,7 @@
             <name>
                 <narrative>Outgoing Pledge</narrative>
                 <narrative xml:lang="fr">Promesse sortante</narrative>
+                <narrative xml:lang="es">Promesa de contribución saliente</narrative>
             </name>
             <description>
                 <narrative>Indicative, non-binding advice of an intended outgoing commitment.</narrative>
@@ -145,6 +157,7 @@
             <name>
                 <narrative>Incoming Pledge</narrative>
                 <narrative xml:lang="fr">Promesse entrante</narrative>
+                <narrative xml:lang="es">Promesa de contribución entrante</narrative>
             </name>
             <description>
                 <narrative>Indicative, non-binding advice of an intended incoming commitment.</narrative>
