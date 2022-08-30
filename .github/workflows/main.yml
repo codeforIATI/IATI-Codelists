@@ -43,7 +43,7 @@ jobs:
     steps:
       - name: Trigger a build on the codelists repo
         if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/version-') }}
-        uses: peter-evans/repository-dispatch@v1
+        uses: peter-evans/repository-dispatch@v2
         with:
           repository: codeforIATI/codelists
           token: ${{ secrets.TOKEN }}
